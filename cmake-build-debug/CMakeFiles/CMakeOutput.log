@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/wafac/CLionProjects/Warcraft0.5/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/wafac/Documents/CPRojects/Warcraft0.5/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
@@ -45,27 +45,27 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/wafac/CLionProjects/Warcraft0.5/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/wafac/Documents/CPRojects/Warcraft0.5/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/wafac/CLionProjects/Warcraft0.5/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/wafac/Documents/CPRojects/Warcraft0.5/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_8464e\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_8464e.dir\build.make /nologo -L                  CMakeFiles\cmTC_8464e.dir\build
-Building C object CMakeFiles/cmTC_8464e.dir/CMakeCCompilerABI.c.obj
-	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_8464e.dir\CMakeCCompilerABI.c.obj.d --working-dir=C:\Users\wafac\CLionProjects\Warcraft0.5\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\wafac\AppData\Local\Temp\nmC540.tmp
-Linking C executable cmTC_8464e.exe
-	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_8464e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_8464e.dir\objects1.rsp @C:\Users\wafac\AppData\Local\Temp\nmC6E7.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_19350\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_19350.dir\build.make /nologo -L                  CMakeFiles\cmTC_19350.dir\build
+Building C object CMakeFiles/cmTC_19350.dir/CMakeCCompilerABI.c.obj
+	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_19350.dir\CMakeCCompilerABI.c.obj.d --working-dir=C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\wafac\AppData\Local\Temp\nm3109.tmp
+Linking C executable cmTC_19350.exe
+	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_19350.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_19350.dir\objects1.rsp @C:\Users\wafac\AppData\Local\Temp\nm3271.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/wafac/CLionProjects/Warcraft0.5/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/wafac/Documents/CPRojects/Warcraft0.5/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_96f5d\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_96f5d.dir\build.make /nologo -L                  CMakeFiles\cmTC_96f5d.dir\build
-Building CXX object CMakeFiles/cmTC_96f5d.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_96f5d.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\Users\wafac\CLionProjects\Warcraft0.5\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\wafac\AppData\Local\Temp\nmCA42.tmp
-Linking CXX executable cmTC_96f5d.exe
-	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_96f5d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_96f5d.dir\objects1.rsp @C:\Users\wafac\AppData\Local\Temp\nmCACF.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_7703a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_7703a.dir\build.make /nologo -L                  CMakeFiles\cmTC_7703a.dir\build
+Building CXX object CMakeFiles/cmTC_7703a.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_7703a.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\wafac\AppData\Local\Temp\nm34A2.tmp
+Linking CXX executable cmTC_7703a.exe
+	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_7703a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7703a.dir\objects1.rsp @C:\Users\wafac\AppData\Local\Temp\nm3501.tmp
 
 
 

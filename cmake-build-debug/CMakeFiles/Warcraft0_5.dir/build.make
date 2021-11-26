@@ -33,19 +33,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\alumno\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\alumno\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wafac\Documents\CPRojects\Warcraft0.5
+CMAKE_SOURCE_DIR = C:\Users\alumno\Desktop\Warcraft0.5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Warcraft0_5.dir\depend.make
@@ -57,36 +57,57 @@ include CMakeFiles\Warcraft0_5.dir\flags.make
 
 CMakeFiles\Warcraft0_5.dir\main.cpp.obj: CMakeFiles\Warcraft0_5.dir\flags.make
 CMakeFiles\Warcraft0_5.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Warcraft0_5.dir/main.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Warcraft0_5.dir\main.cpp.obj /FdCMakeFiles\Warcraft0_5.dir\ /FS -c C:\Users\wafac\Documents\CPRojects\Warcraft0.5\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Warcraft0_5.dir/main.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Warcraft0_5.dir\main.cpp.obj /FdCMakeFiles\Warcraft0_5.dir\ /FS -c C:\Users\alumno\Desktop\Warcraft0.5\main.cpp
 <<
 
 CMakeFiles\Warcraft0_5.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Warcraft0_5.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Warcraft0_5.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wafac\Documents\CPRojects\Warcraft0.5\main.cpp
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Warcraft0_5.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alumno\Desktop\Warcraft0.5\main.cpp
 <<
 
 CMakeFiles\Warcraft0_5.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Warcraft0_5.dir/main.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Warcraft0_5.dir\main.cpp.s /c C:\Users\wafac\Documents\CPRojects\Warcraft0.5\main.cpp
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Warcraft0_5.dir\main.cpp.s /c C:\Users\alumno\Desktop\Warcraft0.5\main.cpp
+<<
+
+CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.obj: CMakeFiles\Warcraft0_5.dir\flags.make
+CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.obj: ..\Clases\Personaje.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Warcraft0_5.dir/Clases/Personaje.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.obj /FdCMakeFiles\Warcraft0_5.dir\ /FS -c C:\Users\alumno\Desktop\Warcraft0.5\Clases\Personaje.cpp
+<<
+
+CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Warcraft0_5.dir/Clases/Personaje.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alumno\Desktop\Warcraft0.5\Clases\Personaje.cpp
+<<
+
+CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Warcraft0_5.dir/Clases/Personaje.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.s /c C:\Users\alumno\Desktop\Warcraft0.5\Clases\Personaje.cpp
 <<
 
 # Object files for target Warcraft0_5
 Warcraft0_5_OBJECTS = \
-"CMakeFiles\Warcraft0_5.dir\main.cpp.obj"
+"CMakeFiles\Warcraft0_5.dir\main.cpp.obj" \
+"CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.obj"
 
 # External object files for target Warcraft0_5
 Warcraft0_5_EXTERNAL_OBJECTS =
 
 Warcraft0_5.exe: CMakeFiles\Warcraft0_5.dir\main.cpp.obj
+Warcraft0_5.exe: CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.obj
 Warcraft0_5.exe: CMakeFiles\Warcraft0_5.dir\build.make
 Warcraft0_5.exe: CMakeFiles\Warcraft0_5.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Warcraft0_5.exe"
-	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\Warcraft0_5.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Warcraft0_5.dir\objects1.rsp @<<
- /out:Warcraft0_5.exe /implib:Warcraft0_5.lib /pdb:C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\Warcraft0_5.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Warcraft0_5.exe"
+	C:\Users\alumno\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\Warcraft0_5.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Warcraft0_5.dir\objects1.rsp @<<
+ /out:Warcraft0_5.exe /implib:Warcraft0_5.lib /pdb:C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\Warcraft0_5.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -98,6 +119,6 @@ CMakeFiles\Warcraft0_5.dir\clean:
 .PHONY : CMakeFiles\Warcraft0_5.dir\clean
 
 CMakeFiles\Warcraft0_5.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\wafac\Documents\CPRojects\Warcraft0.5 C:\Users\wafac\Documents\CPRojects\Warcraft0.5 C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\CMakeFiles\Warcraft0_5.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\alumno\Desktop\Warcraft0.5 C:\Users\alumno\Desktop\Warcraft0.5 C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\CMakeFiles\Warcraft0_5.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\Warcraft0_5.dir\depend
 

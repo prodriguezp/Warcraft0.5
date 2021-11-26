@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Warcraft0_5.dir/Clases/Personaje.cpp.obj"
   "CMakeFiles/Warcraft0_5.dir/main.cpp.obj"
   "Warcraft0_5.exe"
   "Warcraft0_5.exe.manifest"

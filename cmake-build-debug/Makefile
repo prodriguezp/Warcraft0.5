@@ -37,19 +37,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\alumno\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\alumno\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wafac\Documents\CPRojects\Warcraft0.5
+CMAKE_SOURCE_DIR = C:\Users\alumno\Desktop\Warcraft0.5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -57,7 +57,7 @@ CMAKE_BINARY_DIR = C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-de
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\alumno\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -67,7 +67,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\wafac\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\alumno\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\CMakeFiles C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\CMakeFiles C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wafac\Documents\CPRojects\Warcraft0.5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alumno\Desktop\Warcraft0.5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -118,6 +118,30 @@ Warcraft0_5\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Warcraft0_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Warcraft0_5.dir\build
 .PHONY : Warcraft0_5\fast
 
+Clases\Personaje.obj: Clases\Personaje.cpp.obj
+.PHONY : Clases\Personaje.obj
+
+# target to build an object file
+Clases\Personaje.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Warcraft0_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.obj
+.PHONY : Clases\Personaje.cpp.obj
+
+Clases\Personaje.i: Clases\Personaje.cpp.i
+.PHONY : Clases\Personaje.i
+
+# target to preprocess a source file
+Clases\Personaje.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Warcraft0_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.i
+.PHONY : Clases\Personaje.cpp.i
+
+Clases\Personaje.s: Clases\Personaje.cpp.s
+.PHONY : Clases\Personaje.s
+
+# target to generate assembly for a file
+Clases\Personaje.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Warcraft0_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Warcraft0_5.dir\Clases\Personaje.cpp.s
+.PHONY : Clases\Personaje.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Warcraft0_5
+	@echo ... Clases/Personaje.obj
+	@echo ... Clases/Personaje.i
+	@echo ... Clases/Personaje.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

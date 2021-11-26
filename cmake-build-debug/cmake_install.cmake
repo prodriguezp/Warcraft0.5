@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/wafac/Documents/CPRojects/Warcraft0.5
+# Install script for directory: C:/Users/alumno/Desktop/Warcraft0.5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/wafac/Documents/CPRojects/Warcraft0.5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/alumno/Desktop/Warcraft0.5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
